@@ -2,3 +2,20 @@
   width: 10px;
   display: inline-block;
 }
+
+.header__layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-links {
+  flex: 1;
+}
+
+.header-search {
+  flex: 3;
+}
+
+.ant-layout-header {
+  line-height: unset !important;
+}
